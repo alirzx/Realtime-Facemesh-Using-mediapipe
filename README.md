@@ -21,11 +21,10 @@ pip install opencv-python mediapipe imutils numpy
 ```bash
 Edit
 git clone https://github.com/alirzx/Realtime-Facemesh-Using-mediapipe.git
-cd Realtime-Facemesh-Using-mediapipe
 ```
 2️⃣ Run the Script
 ```bash
-python face_mesh_opencv.py
+python face_mesh.py
 ```
 
 3️⃣ Controls
@@ -42,12 +41,13 @@ Displays the face mesh on a black background.
 
 
 ## 🔧 Code Explanation
-cv2.VideoCapture(0) → Captures video from the webcam.
-cv2.flip(image, 1) → Flips the image horizontally.
-mp_face_mesh.FaceMesh() → Detects face mesh landmarks.
-mp_drawing.draw_landmarks() → Draws the facial landmarks.
-cv2.imshow() → Displays the original and processed images.
-📝 Future Improvements
+### cv2.VideoCapture(0) → Captures video from the webcam.
+### cv2.flip(image, 1) → Flips the image horizontally.
+### mp_face_mesh.FaceMesh() → Detects face mesh landmarks.
+### mp_drawing.draw_landmarks() → Draws the facial landmarks.
+### cv2.imshow() → Displays the original and processed images.
+
+## 📝 Future Improvements
 ### ✅ Add eye tracking
 ### ✅ Implement emotion detection
 ### ✅ Improve performance with multi-threading

@@ -19,7 +19,6 @@ pip install opencv-python mediapipe imutils numpy
 📜 Usage
 1️⃣ Clone the Repository
 ```bash
-Edit
 git clone https://github.com/alirzx/Realtime-Facemesh-Using-mediapipe.git
 ```
 2️⃣ Run the Script
